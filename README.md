@@ -1,4 +1,4 @@
 #Informações Do Autor
 
-Nome: Gonçalo Vilar Vale
+Nome: Gonçalo Vilar Vale \n
 Número: PG53849
