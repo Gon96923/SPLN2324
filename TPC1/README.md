@@ -5,7 +5,7 @@ Utilize as bibliotecas *collections* e *jjcli*.
 O programa deve ser capaz de:
 - -m <numero inteiro> : Mostrar as <numero inteiro> palavras mais comuns.
     - <numero de ocurrências -> palavra>
-* -n : Mostrar o numero de palavras de forma alfabética.
+* -n : Mostrar todas as palavras de forma alfabética, e o seu numero de ocorrêncis.
     * <palavra -> numero de ocurrências>
 
 ## Solução
@@ -14,9 +14,6 @@ O programa deve ser capaz de:
 - Criação da função **imprimeN** que recebe e imprime uma lista de tuplos, um tuplo por linha, constituido por uma palavra e o numero de vezes que ocorre, com a palvara primeiro e o número de ocorrências em seguida.
 
 - Criação da função **imprimeM** que recebe e imprime uma lista de tuplos, um tuplo por linha, constituido por uma palavra e o numero de vezes que ocorre, com o número de ocorrências primeiro e a palavra.
-
-## Fluxo do programa
-1.O programa começa por definir os valores no dicionário *cl.opt*.
 
 
 ## Comando para apresentar as palavras em ordem alfabética
