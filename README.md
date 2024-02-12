@@ -1,1 +1,4 @@
-# spln2324
+#Informações Do Autor
+
+    Nome: Gonçalo Vilar Vale
+    Número: PG53849
