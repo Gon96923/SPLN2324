@@ -1,11 +1,23 @@
-# Problema
+## Problema
 Criar um programa capaz de apresentar o número de ocurrências de cada palavra num ficheiro.
+Utilize as bibliotecas *collections* e *jjcli*.
 
 O programa deve ser capaz de:
 - -m <numero inteiro> : Mostrar as <numero inteiro> palavras mais comuns.
     - <numero de ocurrências -> palavra>
 * -n : Mostrar o numero de palavras de forma alfabética.
-    * <palavra -> numero de ocurrências> 
+    * <palavra -> numero de ocurrências>
+
+## Solução
+- Criação da função **tokenize** que agrupa e captura palavras individuais, através de uma função regular.
+
+- Criação da função **imprimeN** que recebe e imprime uma lista de tuplos, um tuplo por linha, constituido por uma palavra e o numero de vezes que ocorre, com a palvara primeiro e o número de ocorrências em seguida.
+
+- Criação da função **imprimeM** que recebe e imprime uma lista de tuplos, um tuplo por linha, constituido por uma palavra e o numero de vezes que ocorre, com o número de ocorrências primeiro e a palavra.
+
+## Fluxo do programa
+1.O programa começa por definir os valores no dicionário *cl.opt*.
+
 
 ## Comando para apresentar as palavras em ordem alfabética
 
