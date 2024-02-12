@@ -7,7 +7,6 @@ SYNOPSIS
    word_freq [options] input_files
    options: 
         -m 20 : Show 20 most common
-        -p 20 : Show 20 least common
         -n : Order alfabetically
 Description'''
 
