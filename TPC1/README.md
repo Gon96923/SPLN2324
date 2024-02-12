@@ -1,5 +1,10 @@
 # Problema
+Criar um programa capaz de apresentar o número de ocurrências de cada palavra num ficheiro.
 
+O programa deve ser capaz de:
+-ola
+-asd
+-assa
 
 Comando para apresentar as palavras em ordem alfabética
 
