@@ -15,9 +15,9 @@ O programa deve ser capaz de:
 
 - Criação da função **imprimeM** que recebe e imprime uma lista de tuplos, um tuplo por linha, constituido por uma palavra e o numero de vezes que ocorre, com o número de ocorrências primeiro e a palavra.
 
-> *Counter(lista)* conta o numero de ocurrências de cada objeto na lista e coloca-os num dicionário.
-> *abc.most_common(n)* retorna uma lista das n palavras mais comuns em abc.
-> *abc.items()* transforma o dicionário *abc* numa lista de pares.
+- > *Counter(lista)* conta o numero de ocurrências de cada objeto na lista e coloca-os num dicionário.
+- > *abc.most_common(n)* retorna uma lista das n palavras mais comuns em abc.
+- > *abc.items()* transforma o dicionário *abc* numa lista de pares.
 
 ## Comando para apresentar as palavras em ordem alfabética
 
