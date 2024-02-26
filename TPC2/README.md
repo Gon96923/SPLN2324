@@ -1,8 +1,8 @@
 # Problema
 
-1)Procurar uma tabela de frequências de portugues
-2)Limpeza (das palavras menos frequentes,numeros,palavras sem numeros, letras sozinhas)
-3)Formula capaz de comparar casos(numero de ocurrencias por milhão)
+1) Procurar uma tabela de frequências de portugues
+2) Limpeza (das palavras menos frequentes,numeros,palavras sem numeros, letras sozinhas)
+3) Formula capaz de comparar casos(numero de ocurrencias por milhão)
 
 # Solução
 
