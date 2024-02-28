@@ -36,4 +36,7 @@ dependencies = [
 ''')
 
 r = pp.render({"name":name, "autor":"Gonçalo","email":"goncalo@gmail.com"})
-print(r)
+
+
+with open('pyproject.toml','w') as f:
+    f.write(r)
