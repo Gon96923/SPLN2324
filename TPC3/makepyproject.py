@@ -3,10 +3,21 @@ from glob import glob
 
 mods = glob('*.py')
 
-if len(mods) >= 1:
-    name = mods[0].split('.')[0]
+if len(mods) > 1 and mods[0] != 'makepyproject.py':
+    name = mods[0]
 else:
-    name = input("Modulo?")
+    name = input("Modulo?\n")
+
+name = name.replace('.py','')
+autor = input("Autor?\n")
+email = input("E-mail?\n")
+
+dep = []
+nD = input("Numero de dependencias?\n")
+for i in range(int(nD)):
+    dep.append(input("Dependencia?\n"))
+
+
 
 pp = jinja2.Template('''
 
@@ -26,7 +37,9 @@ requires-python = ">=3.8"
 dynamic = ["version", "description"]
 
 dependencies = [
-    "jjcli"
+    {% for i in dep %}
+    "{{i}}",
+    {% endfor %}
 ]
 
 [project.scripts]
@@ -35,7 +48,8 @@ dependencies = [
                      
 ''')
 
-r = pp.render({"name":name, "autor":"Gonçalo","email":"goncalo@gmail.com"})
+r = pp.render({"name":name, "autor":autor,"email":email,"dep":dep})
+
 
 
 with open('pyproject.toml','w') as f:
