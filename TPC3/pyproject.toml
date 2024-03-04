@@ -5,9 +5,9 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "aaaaaaaaaaaa"
+name = "script"
 authors = [
-    {name = "Gonçalo", email = "goncalo@gmail.com"},
+    {name = "as", email = "as@as.com"},
 ]
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -16,10 +16,12 @@ requires-python = ">=3.8"
 dynamic = ["version", "description"]
 
 dependencies = [
-    "jjcli"
+    
+    "jjcli",
+    
 ]
 
 [project.scripts]
-aaaaaaaaaaaa = "aaaaaaaaaaaa:main"
+script = "script:main"
 
                      
