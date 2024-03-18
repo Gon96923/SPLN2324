@@ -21,4 +21,4 @@ for token in doc:
 with open("outputmd", "w", encoding="utf-8") as out:
     out.write("| Palavra | POS | Lema |\n")
     for i in range(len(f_list)):
-        tabela.write(f"| {f_list[i][0]} | {f_list[i][1]} | {f_list[i][2]} |\n")
+        out.write(f"| {f_list[i][0]} | {f_list[i][1]} | {f_list[i][2]} |\n")
