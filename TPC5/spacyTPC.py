@@ -18,6 +18,8 @@ for token in doc:
     if token.ent_iob_ == 'O':
         f_list.append((token.text, token.pos_, token.lemma_))
 
-print("Palavra______POS______Lema")
-for token in f_list:
-    print(f"|{token[0]}|         |{token[1]}|         |{token[2]}|")
+with open("outputmd", "w", encoding="utf-8") as tabela:
+    tabela.write("| Palavra | POS | Lema |\n")
+    tabela.write("|#########|#####|######|\n")
+    for i in range(len(f_list)):
+        tabela.write(f"| {f_list[i][0]} | {f_list[i][1]} | {f_list[i][2]} |\n")
