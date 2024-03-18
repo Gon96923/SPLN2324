@@ -2,14 +2,14 @@ import spacy
 
 nlp = spacy.load('pt_core_news_lg')
 
-ex = "O gato e o cão 1 foram de bicicleta para Ponte de Lima. O gato caiu e o cão riu."
+ex = "O gato e o cão 1 foram de bicicleta para Ponte de Lima. O gato caiu e o cão riu, depois foram a Viana do Castelo."
 doc = nlp(ex)
 
 tokens = []
 for token in doc.ents:
     tokens.append((token.text,token.label_, token.lemma_))
 
-i=0
+i = 0
 f_list = []
 for token in doc:
     if token.ent_iob_ == 'B':
