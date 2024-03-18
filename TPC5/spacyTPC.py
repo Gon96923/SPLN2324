@@ -9,10 +9,12 @@ tokens = []
 for token in doc.ents:
     tokens.append((token.text,token.label_, token.lemma_))
 
+i=0
 f_list = []
 for token in doc:
     if token.ent_iob_ == 'B':
         f_list.append(tokens[i])
+        i = i+1
     if token.ent_iob_ == 'O':
         f_list.append((token.text, token.pos_, token.lemma_))
 
