@@ -1,0 +1,1 @@
+O link para o ficheiro .SQL para importar a nossa base de dados PostgrSQL: https://drive.google.com/file/d/1LfiokB8ecp0gMnW0ddibPeeqSNeiBmz8/view?usp=sharing
